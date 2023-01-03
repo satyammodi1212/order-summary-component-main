@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+}
+
+.main-body {
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 4rem;
+    height: 570px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.image img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.heading {
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 1.4rem;
+}
+
+.par {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    margin-top: 1.2rem;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 5rem;
+    width: 19rem;
+    margin-left: 3.2rem;
+    background-color: hsl(225, 100%, 94%);
+}
+.price section {
+    position: absolute;
+    top: 38px;
+    left: 3.5rem;
+    color: hsl(224, 23%, 55%);
+}
+.price .text {
+    position: absolute;
+    color: hsl(223, 47%, 23%);
+    left: 3.5rem;    
+    font-size: 1rem;
+    font-weight: 1000;
+}
+.price .audio {
+    position: absolute;
+    left: 5px;
+}
+.price .change {
+    position: absolute;
+    right: 7vh;
+    top: 30px;
+}
+.footer {
+    text-align: center;
+}
+.footer .btn {
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 21rem;
+    background-color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 30px;
+    margin-left: 2rem;
+    color: hsl(225, 100%, 94%);
+}
+.footer .cancel {
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
